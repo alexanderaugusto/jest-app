@@ -1,6 +1,6 @@
 # Jest-app
 
-### Executando o projeto
+## Executando o projeto
 
 ### Clonar o repositório
 ```
