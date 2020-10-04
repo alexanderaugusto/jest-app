@@ -1,6 +1,5 @@
-const Calculadora = require('./BasicCalculator')
+import AdvancedCalculator from './AdvancedCalculator'
 
-const calc = new BasicCalculator()
-const resultado = calc.soma(1, 1)
+const result = new AdvancedCalculator().abs(-10)
 
-console.log(resultado)
+console.log(result)
