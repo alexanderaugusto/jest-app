@@ -21,3 +21,4 @@ class BasicCalculator {
 }
 
 module.exports = BasicCalculator
+

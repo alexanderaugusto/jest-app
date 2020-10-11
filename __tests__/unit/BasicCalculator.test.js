@@ -1,6 +1,6 @@
 const BasicCalculator = require('../../src/BasicCalculator')
 
-describe("Basic Calculator Test", () => {
+describe("Teste Calculadora Basica", () => {
     let calc
     beforeEach(() => {
         calc = new BasicCalculator()
@@ -33,8 +33,10 @@ describe("Basic Calculator Test", () => {
 
     it("Deve retornar um excessão por ser uma divisão por 0", () => {
         expect(() => {
-            expect(calc.divide(20, 0))
+            calc.divide(20, 0)
         }).toThrow()
     })
 })
+
+
 

@@ -1,6 +1,6 @@
 const AdvancedCalculator = require('../../src/AdvancedCalculator')
 
-describe("Advanced Calculator Test", () => {
+describe("Teste Calculadora Avançada", () => {
   let calc
   beforeEach(() => {
       calc = new AdvancedCalculator();
@@ -26,4 +26,6 @@ describe("Advanced Calculator Test", () => {
       expect(result).toEqual(9)
   })
 })
+
+
 
